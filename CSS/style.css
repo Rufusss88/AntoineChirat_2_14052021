@@ -447,11 +447,6 @@ footer{
 
 /* responsive telephone */
 @media (max-width: 576px) {
-    .searchfilter{
-        margin-right: 1rem;
-        display: flex;
-    }
-
     .menu{
         flex-direction: column-reverse;
     }
@@ -464,7 +459,17 @@ footer{
         order: 1;
     }
 
-    .searchfiltericon{
+    .searchfilter span{
+        margin-bottom: 1rem;
+    }
+
+    .searchfilter{
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchfiltericon{ 
         margin-bottom: 1rem;
     }
 
@@ -474,8 +479,39 @@ footer{
 
     .accomodationmain{
         width: 400px;
+        flex-direction: column;
     }
-}
+
+    .marseilleaccomodation{
+        margin-top: 1rem;
+        background-color:transparent
+    }
+
+    .activites{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footercontent{
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .footersub1, .footersub2, .footersub3{
+        margin-bottom: 1rem;
+        width: auto;
+        margin-left: 0%;
+    }
+
+    .activity1, .activity2, .activity3, .activity4, .activity5, .activity6{
+        min-width: 80%;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+
+    .photoactivity1, .photoactivity2, .photoactivity3, .photoactivity4, .photoactivity5, .photoactivity6,{
+        width: fit-content;
+    }   
 
 /* responsive tablette */
 @media (max-width: 992px) {
