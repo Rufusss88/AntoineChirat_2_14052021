@@ -18,10 +18,6 @@ body{
     margin: 2rem;
 }
 
-.menu{
-    margin-top: -1.5rem;
-}
-
 #menu1{
     display: flex;
     color: #0065FC;
