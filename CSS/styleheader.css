@@ -1,0 +1,62 @@
+/* style header et menu */
+
+body{
+    font-family: raleway;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+}
+
+#logo{
+    flex-grow: 1;
+    padding: 2rem;
+} 
+
+.navigation{
+    margin: 2rem;
+}
+
+.menu{
+    margin-top: -1.5rem;
+}
+
+#menu1{
+    display: flex;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#menu2{
+    display: flex;
+    padding: 2rem 1rem 2rem 1rem;
+    transition: border-top;
+}
+
+#menu2:hover{
+    border-top: 3px solid #0065FC;
+}
+
+.sinscrire{
+    color: #0065FC;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+ul{
+    display: flex;
+    margin-top: -2.5rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
