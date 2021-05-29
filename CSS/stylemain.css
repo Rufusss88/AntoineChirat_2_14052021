@@ -369,7 +369,6 @@ h1{
     .searchfilter{
         margin-right: 1rem;
         display: flex;
-        flex-direction: column;
     }
 
     .searchfiltericon{ 
@@ -460,11 +459,11 @@ h1{
         margin-top: 0;
     }
 
-    .footercontent{
+    .footercontent {
         flex-direction: column;
+        align-items: flex-start;
     }
 
-} 
 
 /* responsive tablette */
 @media (max-width: 992px) {
