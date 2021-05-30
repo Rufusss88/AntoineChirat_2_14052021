@@ -17,6 +17,10 @@ body{
     margin: 2rem;
 }
 
+.navbar {
+    display: flex;
+}
+
 #menu1{
     display: flex;
     color: #0065FC;
@@ -40,7 +44,7 @@ body{
     color: #0065FC;
     font-weight: bold;
     margin-left: 1rem;
-    margin-top: 2rem;
+    margin-top: -0.5rem;
 }
 
 ul{
