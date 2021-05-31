@@ -45,25 +45,28 @@
                         </span>
                     </div>  
                     <input type="text" value="Marseille, France" id="researchform">
-                    <input type="submit" value="Rechercher" id="researchbutton">
+                    <div class="inputseach">
+                        <span class="researchicon"><i class="fas fa-search"></i></span>
+                        <input type="submit" value="Rechercher" id="researchbutton">
+                    </div>
                 </form>
             </div>
         <!--RESEARCH FILTERS-->
             <div class="searchfilter">
-                <span>Filtres</span>
-                    <button class="searchfiltericon">
+                <span id="filtertext">Filtres</span>
+                    <button class="searchfiltericon" id="filter1">
                         <i class="fas fa-money-bill-wave"></i>
                         <span class='seachfiltertext'>Économique</span>
                     </button>
-                    <button class="searchfiltericon">
+                    <button class="searchfiltericon" id="filter2">
                         <i class="fas fa-child"></i>
                         <span class='searchfiltertext'>Familial</span>
                     </button>
-                    <button class="searchfiltericon">
+                    <button class="searchfiltericon" id="filter3">
                         <i class="fas fa-heart"></i>
                         <span class='seachfiltertext'>Romantique</span>
                     </button>
-                    <button class="searchfiltericon">
+                    <button class="searchfiltericon" id="filter4">
                         <i class="fas fa-dog"></i>
                         <span class='seachfiltertext'>Animaux autorisés</span>
                     </button>
@@ -211,7 +214,7 @@
                 <div class="hoteldescriptionpop">
                     <h3>Au coeur de l'eau Chambre d'hôtes</h3>
                     <p>Nuit à partir de 71€</p>
-                    <div class="rating">
+                    <div class="rating" id="popularrating2">
                         <i class="fas fa-star hostingMainCardGradeIcon"></i>
                         <i class="fas fa-star hostingMainCardGradeIcon"></i>
                         <i class="fas fa-star hostingMainCardGradeIcon"></i>
