@@ -198,12 +198,12 @@ h1{
     background-color:#F2F2F2;
     border-radius: 1.5rem;
     min-height: 650px;
-    min-width: 30%;
 }
 
 #iconestonk{
     margin-left: 10rem;
     margin-top: 1.5rem;
+    margin-right: 1rem;
 }
 
 .popularheader{
