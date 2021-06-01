@@ -63,6 +63,7 @@ h1{
     margin-top: 2em;
     margin-bottom: 2rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .searchfilter i{
@@ -94,11 +95,14 @@ h1{
     border-radius: 2rem;
     transition: background-color;
     margin-right: 2rem;
+    margin-bottom: 12px;
 }
 
 .searchfiltericon:hover{
-    background-color:whitesmoke;
     transform:scale(1.05);
+    background-color: #0065FC;
+    color: #fff;
+    cursor: pointer;
 }
 
 .searchfiltertext{
@@ -133,10 +137,10 @@ h1{
 }
 
 .marseilleaccomodation{
-    flex-grow: 4;
     background-color:#F2F2F2;
     border-radius: 1.5rem;
     margin-right:2rem;    
+    flex: 1 0 72%;
 }
 
 .accomodationmain{
@@ -146,18 +150,31 @@ h1{
 
 .accomodationmainheader{
     margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .marseillehotels{
     background-color: white;
-    padding: 0.375rem;
-    border-radius: 1.25rem;
+    border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    width: 300px;
     transition: background-color;
+    flex: 1 0 33.33%;
+    max-width: 330Px;
+    margin: auto;
+    padding: 10px;
+}
+
+marseillehotels a{
+    cursor : pointer;
+    display: block;
+}
+
+.marseillehotels .img-pres {
+    height: 174px;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 .marseillehotels:hover {
@@ -195,20 +212,24 @@ h1{
 
 /* style hebergement populaire */
 .popular{
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 1.5rem;
     min-height: 650px;
+    flex: 1 0 28%;
 }
 
 #iconestonk{
-    margin-left: 10rem;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
 }
 
 .popularheader{
-    display: flex;
     margin-left: 2rem;
+}
+
+.populartitle{
+    position: relative;
 }
 
 .popularhotels{
@@ -239,6 +260,7 @@ h1{
 .popularhotels p{
     font-weight: normal;
     font-size: 1.17em;
+    margin-bottom: 40%;
 }
 
 .hoteldescriptionpop{
@@ -398,8 +420,7 @@ h1{
         border-bottom-color: #0065FC;
     }
 
-    ul{
-        font-size: x-large;
+    .navbar ul{
         margin-top: 3rem;
         margin-left: -11rem;
         border-bottom: 3px solid #F2F2F2;
@@ -634,12 +655,15 @@ h1{
     .footersub2, .footersub3{
         min-width: 230px;
     }
-
-
 }
 
 /* responsive tablette */
 @media (max-width: 992px) {
+
+    h1 {
+        font-size: x-large;
+    }
+
     .accomodation {
         flex-direction: column-reverse;
         }

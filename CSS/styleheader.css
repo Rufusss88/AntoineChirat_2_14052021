@@ -1,6 +1,7 @@
 /* style header et menu */
 body{
     font-family: raleway;
+    color:black;
     font-weight: 600;
 }
 
@@ -50,7 +51,7 @@ body{
     flex-grow: 2;
 }
 
-ul{
+.navbar ul{
     display: flex;
     margin-top: -2.5rem;
     flex-grow: 1;

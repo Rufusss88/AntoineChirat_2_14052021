@@ -9,22 +9,15 @@ footer{
     align-items: flex-start;
 }
 
-.footersub1{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+.footercontent h3{
+    margin-left: 35px;
 }
 
-.footersub2{
+.footercontent li{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-}
-
-.footersub3{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    margin-top: 2rem;
+    flex: 1 0 30%;
 }
 
 .footerlink{
