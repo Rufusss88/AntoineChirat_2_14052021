@@ -10,7 +10,7 @@ footer{
 }
 
 .footercontent h3{
-    margin-left: 35px;
+    margin-left: 39px;
 }
 
 .footercontent li{
@@ -20,7 +20,12 @@ footer{
     flex: 1 0 30%;
 }
 
+.footercontent ul{
+    margin-block-end: 0em;
+}
+
 .footerlink{
     margin-top: 0rem;;
     margin-bottom: 1rem;
+    color: black;
 }

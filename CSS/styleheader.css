@@ -34,9 +34,10 @@ body{
 
 #menu2{
     display: flex;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 1rem 2rem 3rem;
     transition: border-top;
     margin-right: -1rem;
+    margin-left: 0rem;
 }
 
 #menu2:hover{
@@ -46,9 +47,8 @@ body{
 .sinscrire{
     color: #0065FC;
     font-weight: bold;
-    margin-left: 1rem;
     margin-top: -0.5rem;
-    flex-grow: 2;
+    flex-grow: 0;
 }
 
 .navbar ul{
