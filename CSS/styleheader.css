@@ -2,63 +2,85 @@
 body{
     font-family: raleway;
     color:black;
-    font-weight: 600;
+    margin:0px;
 }
 
 .header{
     display: flex;
+    margin-top: 12px;
+    align-items: flex-end;  
 }
 
 #logo{
-    flex-grow: 9;
-    padding: 2rem;
+    flex: 1 0 25%;
 } 
 
-.navigation{
-    margin: 2rem;
-    flex-grow: 1;
+.header #logo a{
+    display: inline-block;
 }
+
+header .navigation{
+    flex: 1 0 75%;
+    max-width: 488px;
+}
+
+header .navigation .navbar{
+    align-items: center;
+}
+
+.header .navigation .navbar ul{
+    display: flex;
+    flex: 1 0 75%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .navigation .navbar ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.header .navigation .navbar ul li.first{
+    flex-basis: 99%;
+}
+
+.header .navigation .navbar ul li.second{
+    flex-basis: 41%;
+}
+
 
 .navbar {
     display: flex;
 }
 
 #menu1{
-    display: flex;
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    display: block;
+    padding: 25px 5px;
 }
 
 #menu2{
-    display: flex;
-    padding: 2rem 1rem 2rem 3rem;
     transition: border-top;
     margin-right: -1rem;
     margin-left: 0rem;
+    border-top: var(--boder-height-top-menu) #fff;
+    display: block;
+    height:  var(--height-top-menu);
+    line-height: var(--line-height-top-menu);
 }
 
 #menu2:hover{
-    border-top: 3px solid #0065FC;
+    color: var(--blue-link-color);
+    border-top: var(--boder-height-top-menu) var(--blue-link-color);
 }
 
 .sinscrire{
-    color: #0065FC;
+    color: var(--blue-link-color);
     font-weight: bold;
-    margin-top: -0.5rem;
-    flex-grow: 0;
-}
-
-.navbar ul{
-    display: flex;
-    margin-top: -2.5rem;
-    flex-grow: 1;
-}
-
-li{
-    list-style: none;
+    flex: 1 0 25%;
+    height:  var(--height-top-menu);
+    line-height: var(--line-height-top-menu);
 }
 
 a{

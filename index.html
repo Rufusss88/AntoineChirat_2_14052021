@@ -15,9 +15,11 @@
 <body>
     <!-- Section 1 Logo & Menu-->
     <header class="header"> 
-        <a href="page1.html" id="logo">
+        <div id="logo">
+        <a href="index.html">
             <img src="images/Reservia.svg" alt="logo" class="logo">
         </a>
+        </div>
         <div class="navigation">
             <nav class="navbar">
                 <ul>
@@ -82,10 +84,8 @@
         <!-- Section 3 Accomodation-->
         <section class="accomodation">
         <div class="marseilleaccomodation" id="ancrehebergement">
-            <header class="accomodationmainheader">
-                <h2>Hébergements à Marseille</h2>
-            </header>
             <div class="accomodationmain">
+                <h1 class="titleone">Hébergements à Marseille</h1>
                 <div class="marseillehotels">
                     <a href="#">
                         <div class="img-pres">
@@ -194,15 +194,14 @@
                         </div> 
                     </a>
                 </div>
-            </div>
                 <p class="showmore">Afficher plus</p>
+            </div>     
         </div>            
     <!-- Section 4 Les plus populaires-->
         <div class="popular">
-            <header class="popularheader">
-            <h2 class="populartitle">Les plus populaires
-                <i class="fas fa-chart-line" id="iconestonk"></i></h2>
-            </header>      
+            <h1 class="popularheader populartitle title-one">Les plus populaires
+                <i class="fas fa-chart-line" id="iconestonk"></i>
+            </h1>    
                 <div class="popularhotels">
                     <a href="#">
                     <img class="photohotelpop" src="images/hebergements/4_small/soleildumatin.jpg" alt="hotel1" id="photohotelpop1"/>
@@ -310,24 +309,28 @@
     </main>
         <!-- Section 6 Footer-->
     <footer>
-        <section class="footercontent">
-            <li class="footersub1">
-                <h3>À propos</h3>
-                    <ul><a class="footerlink" href="#">Fonctionnement du site</a></ul>
-                    <ul><a class="footerlink" href="#">Conditions générales de vente</a></ul>
-                    <ul><a class="footerlink" href="#">Données et confidentialité</a></ul>
-            </li>
-            <li class="footersub2">
-                <h3>Nos hébergements</h3>
-                    <ul><a class="footerlink" href="#">Charte Qualité</a></ul>
-                    <ul><a class="footerlink" href="#">Soumettre votre hôtel</a></ul>
-            </li>
-            <li class="footersub3">
-                <h3>Assistance</h3>
-                    <ul><a class="footerlink" href="#">Centre d'aide</a></ul>
-                    <ul><a class="footerlink" href="#">Nous contacter</a></ul>
-            </li>    
+        <section>
+            <h3>À propos</h3>
+            <ul class="footersub1">
+                <li><a class="footerlink" href="#">Fonctionnement du site</a></li>
+                <li><a class="footerlink" href="#">Conditions générales de vente</a></li>
+                <li><a class="footerlink" href="#">Données et confidentialité</a></li>
+            </ul>                     
         </section>
-    </footer>    
+        <section>
+            <h3>Nos hébergements</h3>
+            <ul class="footersub2">
+                <li><a class="footerlink" href="#">Charte Qualité</a></li>
+                <li><a class="footerlink" href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Assistance</h3>
+            <ul class="footersub3">
+                <li><a class="footerlink" href="#">Centre d'aide</a></li>
+                <li><a class="footerlink" href="#">Nous contacter</a></li>
+            </ul>    
+        </section>
+    </footer>
 </body>
 </html>
