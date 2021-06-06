@@ -92,6 +92,10 @@ a{
         padding: 0px 10px;
         display:initial;
     }
+
+    .header #logo a{
+        margin-left: 20px;
+    }
         
     .header #logo{
         flex: 1 0 50%;
@@ -140,7 +144,7 @@ a{
         height: initial;
         line-height: initial;
         position: absolute;
-        right: 0px;
-        top: -83px;
+        right: 16px;
+        top: -62px;
     }
 }

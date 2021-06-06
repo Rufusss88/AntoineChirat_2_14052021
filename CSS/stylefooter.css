@@ -27,11 +27,8 @@
     margin-left: 39px;
 }
 
-.footercontent li{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    flex: 1 0 30%;
+.footer ul li{
+    margin-bottom: 10px;
 }
 
 

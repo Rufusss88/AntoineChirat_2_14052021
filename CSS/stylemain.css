@@ -340,7 +340,7 @@ h1{
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
     display: flex;
-    max-width: 83%;
+    max-width: 90%;
     transition: background-color;
 }
 
@@ -523,6 +523,8 @@ h1{
     .popular .popularhotels .photohotelpop {
         width: 100px;
     }
+
+
 }
 
 /* responsive telephone */
@@ -530,6 +532,14 @@ h1{
     body{
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    main .research{
+        margin-left: 15px;
+    }
+
+    main .research .researchpart{
+        margin-top: 30px;
     }
 
     .researchbox {
@@ -572,16 +582,20 @@ h1{
     #filter1{
         grid-column: 1;
         grid-row: 2;
+        max-width: 160px;
+        margin-left: 15px;
     }
 
     #filter2{
         grid-column: 2;
         grid-row: 2;
+        max-width: 130px;
     }
 
     #filter3{
         grid-column: 1;
         grid-row: 3;
+        max-width: 160px;
     }
 
     #filter4{
@@ -589,26 +603,32 @@ h1{
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row: 4;
+        max-width: 214px;
     }
 
     #filtertext{
         margin-bottom: 1rem;
+        margin-left: 8px;
     }
 
-    .searchfiltertext{
+    .searchfiltertext {
         font-size: small;
     }
 
     .searchfiltericon{ 
-        margin-bottom: 1rem;
+        margin-bottom: 0.7rem;
         margin-right: 1rem;
-        margin-left: 1rem;
         text-align: left;
-        width: fit-content;
+        font-size:small;
+        margin-left: 15px;
     }
 
     .searchfiltertextresult{
-        font-size: small;
+        font-size: medium;
+    }
+
+    main .research .researchresult span{
+        margin-left: 5px;
     }
 
     .accomodation{
@@ -620,12 +640,9 @@ h1{
         margin-right: 0px;
         border-radius: 0px;
         background-color: initial;
-        }
+    }
         
     .accomodation .marseilleaccomodation .accomodationmain{
-        justify-content: flex-start;
-        padding-left: 23px;
-        width: 400px;
         flex-direction: column;
     }
         
@@ -634,7 +651,10 @@ h1{
     }
         
     .accomodation .marseilleaccomodation .accomodationmain .marseillehotels{
-        max-width: 355px;
+        max-width: 337.5px;
+        margin-left:-2rem;
+        height: 190px;
+        padding: 0;
         margin: 15px 0px;
     }
 
@@ -649,13 +669,6 @@ h1{
         background-color:transparent
     }
 
-    .marseillehotels{
-        margin-left:-2rem;
-        width: 330px;
-        height: 190px;
-        padding: 0;
-        max-width: 375Px;
-    }
 
     .marseillehotels a{
         width: initial;
@@ -673,11 +686,13 @@ h1{
         border-bottom-left-radius: 0rem;
     }
 
-    .hoteldescription{
+    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .hoteldescription {
         padding: 0.5rem;
         margin-left: 1rem;
         margin-top: -3rem;
         margin-top: -3.7rem;
+        margin-top: -35px;
+        padding: 0px 8px 4px;
     }   
     
     .hoteldescription h3, .hoteldescription p{
@@ -690,25 +705,34 @@ h1{
     }
 
     .showmore{
-        font-size: large;
-        margin-left: -2rem;
         margin-bottom: -1rem;
+        margin-left: 0rem;
     }
 
     #iconestonk{
-        margin-left: 13rem;
-        font-size: 1.5rem;
+        margin-right: 0;
     }
     
+    main .accomodation .popular{
+        border-radius:0;
+    }
+
     .popularheader{
         display: flex;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
     }
 
     .populartitle {
         position: inherit;
+        margin-top: 15px;
+    margin-bottom: 15px;
     }
+
+    main .accomodation .popular h1{
+        margin-left: 10px;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
     .photohotelpop{
         border-bottom-right-radius: 0rem;
         border-top-right-radius: 0rem;
@@ -727,24 +751,19 @@ h1{
         margin-top: -1rem;
     }
     
-    .activites{
+    .activities{
         display: flex;
-        flex-direction: column;
-        width: 520px;
+        justify-content: center;
     }
 
-    .activitytitle{
-        font-size: x-large;
-        margin-bottom: 2rem;
-        margin-left: -1.1rem;
+    .activites{
+        display: flex;
+        flex-direction:column;
     }
 
     .activity1, .activity2, .activity3, .activity4, .activity5, .activity6{
         height: 200px;
-        margin-left: -1rem;
-        margin-bottom: 2rem;
-        width: 520px;
-        display: flex;
+        width: 337.5px;
     }
 
     .photoactivity1, .photoactivity2, .photoactivity3, .photoactivity4, .photoactivity5, .photoactivity6{
@@ -767,11 +786,13 @@ h1{
         font-size: large;
     }
 
-    footer{
-        margin-left: -1rem;
+    .footer{
         padding-left: 1rem;
-        margin-bottom: -1rem;
-        width: 102%;
+        flex-direction: column;
+    }
+
+    .footer .footersub ul{
+        margin-left: 0px;
     }
 
     .footercontent {
@@ -851,8 +872,9 @@ h1{
     .activity1, .activity2, .activity3, .activity4, .activity5, .activity6{
         height: 190px;
         width: 330px;
-        margin-bottom: 1rem;
+        margin-bottom: 1.1rem;
     }
+
     .photoactivity1, .photoactivity2, .photoactivity3, .photoactivity4, .photoactivity5, .photoactivity6{
         height: 75%;
     }
@@ -864,6 +886,7 @@ h1{
     .activitydescription2, .activitydescription6 {
         margin-top: 45%;
     } 
+
     .photoactivity1, .photoactivity4 {
         width: 100%;
     }
@@ -874,5 +897,9 @@ h1{
 
     .footercontent li{
         flex: 1 0 38%;
+    }
+
+    .footer .footersub{
+        margin-top: 1rem;
     }
 }
