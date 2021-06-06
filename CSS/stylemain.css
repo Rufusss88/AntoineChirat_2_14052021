@@ -1,4 +1,15 @@
 /* style main */
+body{
+    font-family: raleway;
+    color:black;
+    margin:0px;
+}
+
+.max-width{
+    max-width:1440px;
+    margin: auto;
+}
+
 main{
     margin-left: 2rem;
     margin-right: 2rem;
@@ -7,14 +18,14 @@ main{
 h1{
     font-size: x-large;
     margin-bottom: 10px;
-}
-
-header, .search, main, footer{
-    max-width:1440px;
-    margin: auto;
+    flex-basis: 93.5%;
 }
 
 /* style research part */
+
+.research .researchheader #headertext{
+    font-weight: bold;
+}
 
 .researchbox{
     display: flex;
@@ -132,6 +143,7 @@ header, .search, main, footer{
 .searchfiltertextresult{
     margin-left: 1rem;
     margin-top: 5px;
+    font-weight: bold;
 }
 
 .researchresult{
@@ -198,7 +210,7 @@ header, .search, main, footer{
 .accomodation .marseilleaccomodation .accomodationmain .showmore {
     font-weight: bold;
     font-size: 1.2rem;
-    flex-basis: 90.5%;
+    flex-basis: 94.5%;
 }
     
 .popular .popularhotels .hoteldescriptionpop{
@@ -278,7 +290,8 @@ header, .search, main, footer{
 }
 
 .marseillehotels p{
-    font-weight: normal;
+    font-weight:bold;
+    font-size: 0.88rem;
     color: black;
 }
 
@@ -305,6 +318,7 @@ header, .search, main, footer{
     align-content: space-evenly;
     justify-content: space-evenly;
     flex: 1 0 32%;
+    display: flex;
 }
 
 #iconestonk{
@@ -316,6 +330,7 @@ header, .search, main, footer{
 .popular .title-one{
     margin: 0px;
     position: relative;
+    max-height: 29px;
     }
 
 .popular .popularhotels{
@@ -348,7 +363,7 @@ header, .search, main, footer{
 }
 
 .popular .popularhotels .hoteldescriptionpop p{
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .popular .popularhotels .hoteldescriptionpop .rating{
@@ -498,86 +513,27 @@ header, .search, main, footer{
     transform:scale(1.05);
 }
 
+/* responsive tablette*/
+@media (min-width: 768px) and (max-width: 1100px) {
+    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels {
+        max-width: 323px;
+        flex: 1 0 34.33%;
+    }
+
+    .popular .popularhotels .photohotelpop {
+        width: 100px;
+    }
+}
+
 /* responsive telephone */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     body{
         max-width: 100%;
         overflow-x: hidden;
     }
 
-    .header{
-        margin-top: 0px;
-        align-items: flex-start;
-        margin-top: 13px;
-        padding: 0px 10px;
-    }
-        
-    .header #logo{
-        flex: 1 0 50%;
-    }
-           
-    .header .navigation {
-        padding-bottom: 80px;
-        margin-top: 16px;
-        flex: 1 0 50%
-    }
-        
-    .header .navigation .navbar ul{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0PX;
-        margin-top: 72px;
-        padding: 0px 10px;
-    }
-        
-    .header .navigation .navbar ul li.first a, .header .navigation .navbar ul li.second a{
-        border-top: 0px;
-        border-bottom: var(--boder-height-top-menu);
-    }
-
-    .header .navigation .navbar ul li.second a{
-        border-bottom: var(--boder-height-top-menu);
-    }
-        
-    .header .navigation .navbar ul li a:hover{
-        border-top: var(--boder-height-top-menu) var(--blue-link-color);
-    }
-        
-    .header .navigation .navbar ul li a{
-        height: initial;
-        line-height: initial;
-        padding-bottom: 6px;
-    }
-        
-    .header .navigation .navbar .sinscrire {
-        height: initial;
-        line-height: initial;
-    }
-
-    .researchheader{
-        margin-top: -2rem;
-        margin-left: 0.5rem;
-        width: 300px;
-    }
-
-    .researchheader h1{
-        margin-left: -1.8rem;
-        font-size: x-large;
-        margin-top: -1rem;
-    }
-
-    #headertext{
-        margin-left: -1.8rem;
-    }
-
-    .researchpart{
-        margin-top: 2rem;
-    }
-
     .researchbox {
         width: 20rem;
-        margin-left: -1rem;
     }
 
     #researchform{
@@ -604,15 +560,9 @@ header, .search, main, footer{
         margin-left: 1rem;
     }
 
-    .researchresult{
-        margin-left: -1rem;
-    }
-
     .searchfilter{
-        margin-right: 1rem;
         display: grid;
         flex-direction: column;
-        margin-left: -1.5rem;
     }
 
     .infoicon{
@@ -708,7 +658,7 @@ header, .search, main, footer{
     }
 
     .marseillehotels a{
-        width: 330px;
+        width: initial;
         height: 190px;
     }
 
@@ -885,10 +835,6 @@ header, .search, main, footer{
         grid-row: 4;
         grid-column-start: 1;
         grid-column-end: 3;
-    }
-
-    .accomodation {
-        flex-direction: column-reverse;
     }
 
     .popular{

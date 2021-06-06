@@ -1,7 +1,21 @@
 /* style footer */
-footer{
+.footer{
     background-color: #F2F2F2;
     margin-top: 3rem;
+    display: flex;
+}
+
+.footer .footersub{
+    flex:1 0 33.33%;
+}
+
+.footer .footersub ul{
+    list-style:none;
+    padding: 0;
+}
+
+.footer .footersub ul li a{
+    font-weight: 600;
 }
 
 .footercontent{
