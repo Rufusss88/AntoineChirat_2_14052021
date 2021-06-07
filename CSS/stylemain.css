@@ -681,7 +681,6 @@ h1{
         background-color:transparent
     }
 
-
     .marseillehotels a{
         width: initial;
         height: 190px;
@@ -745,6 +744,10 @@ h1{
         margin-bottom: 0.5rem;
     }
 
+    main .accomodation .popular .popularhotels{
+        margin-bottom: 15px;
+    }
+
     .photohotelpop{
         border-bottom-right-radius: 0rem;
         border-top-right-radius: 0rem;
@@ -776,6 +779,7 @@ h1{
     .activity1, .activity2, .activity3, .activity4, .activity5, .activity6{
         height: 200px;
         width: 337.5px;
+        margin-bottom: 15px;
     }
 
     .photoactivity1, .photoactivity2, .photoactivity3, .photoactivity4, .photoactivity5, .photoactivity6{
@@ -889,6 +893,10 @@ h1{
         min-height: 624px;
     }
 
+    main .accomodation .popular .popularhotels{
+        margin-bottom: 15px;
+    }
+
     main .accomodation{
         flex-direction: column-reverse;
     }
@@ -914,6 +922,7 @@ h1{
         flex-direction: column;
         align-items: center;
         justify-items: center;
+        margin-bottom: 15px;
     }
 
     .activity1, .activity2, .activity3, .activity4, .activity5, .activity6{
