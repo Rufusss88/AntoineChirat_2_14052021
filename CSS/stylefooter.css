@@ -37,3 +37,55 @@
     margin-bottom: 1rem;
     color: black;
 }
+
+/* responsive telephone */
+@media (max-width: 767px) {
+    .footer{
+        padding-left: 1rem;
+        flex-direction: column;
+    }
+
+    .footer .footersub ul{
+        margin-left: 0px;
+    }
+
+    .footercontent {
+        flex-direction: column;  
+        min-width: 580px;
+        align-items: flex-start;
+        margin-left: 1rem;
+    }
+
+    .footercontent li{
+        margin-bottom: 2rem;
+    }
+
+    .footercontent h3{
+        margin-bottom:0.5rem;
+    }
+
+    .footersub1{
+        margin-top: 1rem;
+        margin-left: -2rem;
+    }
+    .footersub2, .footersub3{
+        min-width: 230px;
+        margin-left: -2rem;
+    }
+}
+
+/* responsive tablette */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .footercontent h3 {
+        margin-left: 38px;
+    }
+
+    .footercontent li{
+        flex: 1 0 38%;
+    }
+
+    .footer .footersub{
+        margin-top: 1rem;
+        margin-left: 20px;
+    }
+}

@@ -75,7 +75,7 @@ a{
     text-decoration: none;
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
     .header #logo {
         flex: 1 0 100%;
     }
@@ -148,4 +148,8 @@ a{
         right: 16px;
         top: -62px;
     }
+}
+
+/* responsive tablette */
+@media (min-width: 768px) and (max-width: 1100px) {
 }
