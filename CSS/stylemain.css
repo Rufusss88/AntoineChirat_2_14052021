@@ -132,7 +132,7 @@ body{
     width: 30px;
     height: 30px;
     color: #0065FC;
-    border: 1px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
     border-radius: 20px 20px;
     align-items: center;
     justify-content: center;
@@ -141,7 +141,8 @@ body{
 .searchfiltertextresult{
     margin-left: 15px;
     margin-top: 5px;
-    font-weight: bold;
+    font-weight: 600;
+    color: black;
 }
 
 /* style partie hebergement */
@@ -234,8 +235,8 @@ body{
 }
 
 .accomodation .marseilleaccomodation .accomodationmain .marseillehotels p{
-    font-weight:bold;
     font-size: 0.88rem;
+    font-weight: 600;
 }
 
 /* style hebergement populaire */
@@ -290,10 +291,18 @@ body{
     position: relative;
 }
 
-.popularhotels h3, .popularhotels p{
+
+.accomodation .popular .popularhotels h3{
+    margin-bottom: 20px;
+    margin-top: 0%;
+    color: black;
+}   
+
+.accomodation .popular .popularhotels p{
     margin-bottom: 0%;
     margin-top: 0%;
     color: black;
+    font-weight: 600;
 }
 
 .accomodation .popular .popularhotels .hoteldescriptionpop .rating{
@@ -318,11 +327,11 @@ body{
     column-gap: 2rem;
 }
 
-.activitytitle{
+.activites .activitytitle{
     grid-column: 1/-1;
 }
 
-.activitydescription1, .activitydescription4{
+.activites .activitydescription1, .activitydescription4{
     display: flex;
     margin-top: 500px;
     margin-left: 1rem;
@@ -330,7 +339,7 @@ body{
     color: black;
 }
 
-.activitydescription2, .activitydescription6{
+.activites .activitydescription2, .activitydescription6{
     display: flex;
     margin-top: 240px;
     margin-left: 1rem;
@@ -338,7 +347,7 @@ body{
     color: black;
 }
 
-.activitydescription3, .activitydescription5{
+.activites  .activitydescription3, .activitydescription5{
     display: flex;
     margin-top: 180px;
     margin-left: 1rem;
@@ -346,27 +355,27 @@ body{
     color: black;
 }
 
-.photoactivity1, .photoactivity4{
+.activites .photoactivity1, .photoactivity4{
     position: absolute;
     height:90%;
     object-fit: cover;
 }
 
-.photoactivity2, .photoactivity6{
+.activites .photoactivity2, .photoactivity6{
     position: absolute;
     height:85%;
     width:100%;
     object-fit: cover;
 }
 
-.photoactivity3, .photoactivity5{
+.activites .photoactivity3, .photoactivity5{
     position: absolute;
     height:80%;
     width:100%;
     object-fit: cover;
 }
 
-.activity1{
+.activites .activity1{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -378,7 +387,7 @@ body{
     transition: background-color;
 }
 
-.activity2{
+.activites .activity2{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -390,7 +399,7 @@ body{
     transition: background-color;
 }
 
-.activity3{
+.activites .activity3{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -402,7 +411,7 @@ body{
     transition: background-color;
 }
 
-.activity4{
+.activites .activity4{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -414,7 +423,7 @@ body{
     transition: background-color;
 }
 
-.activity5{
+.activites .activity5{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -426,7 +435,7 @@ body{
     transition: background-color;
 }
 
-.activity6{
+.activites .activity6{
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -438,7 +447,7 @@ body{
     transition: background-color;
 }
 
-.activity1:hover, .activity2:hover, .activity3:hover, .activity4:hover, .activity5:hover, .activity6:hover{ 
+.activites .activity1:hover, .activity2:hover, .activity3:hover, .activity4:hover, .activity5:hover, .activity6:hover{ 
     background-color:whitesmoke;
     transform:scale(1.05);
 }
@@ -552,16 +561,25 @@ body{
         margin-top: 30px;
         background-color:transparent
     }
+
+    .accomodation .marseilleaccomodation .hebergementamarseille{
+        flex: none;
+        margin-right: 0px;
+        border-radius: 0px;
+        background-color: initial;
+        margin-top: 30px;
+        background-color:transparent
+    }
         
-    .accomodation .marseilleaccomodation .accomodationmain{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain{
         flex-direction: column;
     }
         
-    .accomodation .marseilleaccomodation .accomodationmain .title-one{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .title-one{
         margin-top: 22px;
     }
         
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels{
         max-width: 337.5px;
         margin-left:-2rem;
         height: 190px;
@@ -569,23 +587,23 @@ body{
         margin: 15px 0px;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels a{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels a{
         width: initial;
         height: 190px;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .hoteldescription{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .hoteldescription{
         font-size: small;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .photohotel{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .photohotel{
         width: 100%;
         height: 120px;
         border-bottom-right-radius: 0rem;
         border-bottom-left-radius: 0rem;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .hoteldescription {
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .hoteldescription {
         padding: 0.5rem;
         margin-left: 1rem;
         margin-top: -3rem;
@@ -594,21 +612,21 @@ body{
         padding: 0px 8px 4px;
     }   
     
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .hoteldescription h3, .hoteldescription p{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .hoteldescription h3, .hoteldescription p{
         margin-bottom: 0.5rem;
         font-weight: bold;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels #photohotel5, #photohotel6 {
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels #photohotel5, #photohotel6 {
         min-height: 100px;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .showmore{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .showmore{
         margin-bottom: -1rem;
         margin-left: 0rem;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels .accomodation #iconestonk{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .accomodation #iconestonk{
         margin-right: 0;
     }
     /* style popular part */
@@ -744,22 +762,22 @@ body{
         flex-direction: column-reverse;
     }
 
-    .accomodation .marseilleaccomodation{
+    .accomodation .marseilleaccomodation .hebergementamarseille{
         background-color: white;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain{
         margin-left: 30px;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain h1{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain h1{
         text-align: center;
     }
 
-    .accomodation .marseilleaccomodation .accomodationmain p{
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain p{
         margin-bottom: 0rem;
     }
-    .accomodation .marseilleaccomodation .accomodationmain .marseillehotels {
+    .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels {
         max-width: 323px;
         flex: 1 0 34.33%;
     }
