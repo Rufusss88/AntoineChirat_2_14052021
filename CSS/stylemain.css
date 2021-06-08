@@ -3,6 +3,7 @@ body{
     font-family: raleway;
     color:black;
     margin:0px;
+    font-size:14px;
 }
 
 .max-width{
@@ -149,9 +150,14 @@ body{
 }
 
 .accomodation .marseilleaccomodation{
-    background-color:#F2F2F2;
+    border-radius: 1.5rem; 
+    flex: 1 0 68%;
+}
+
+.accomodation .marseilleaccomodation .hebergementamarseille{
+    background-color: #F2F2F2;
     border-radius: 1.5rem;
-    margin-right:2rem;    
+    margin-right: 25px;
     flex: 1 0 68%;
 }
 
