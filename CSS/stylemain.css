@@ -222,6 +222,8 @@ body{
 }
     
 .accomodation .marseilleaccomodation .accomodationmain .marseillehotels h3, p{
+    margin-bottom: 2%;
+    margin-top: 0%;
     text-align:left;
     color: black;
 }
@@ -293,7 +295,7 @@ body{
     font-weight: normal;
 }
 
-.marseillehotels h3, .marseillehotels p, .popularhotels h3, .popularhotels p {
+.popularhotels h3, .popularhotels p {
     margin-bottom: 0%;
     margin-top: 0%;
     text-align:left;
