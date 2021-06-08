@@ -1,16 +1,15 @@
 /* style header et menu */
-.header{
-    display: flex;
-    margin-top: 12px;
-    align-items: flex-end;  
+a{
+    text-decoration: none;
 }
 
+.header{
+    display: flex;
+} 
+    
 .header #logo{
     flex: 1 0 25%;
-} 
-
-.header #logo a{
-    display: inline-block;
+    margin-top: 12px;
 }
 
 .header .navigation{
@@ -18,14 +17,8 @@
     max-width: 488px;
 }
 
-.header .navigation {
-    align-items: center;
-    display: flex;
-}
-
 .header .navigation ul{
     display: flex;
-    flex: 1 0 75%;
     margin: 0px;
     padding: 0px;
 }
@@ -36,59 +29,37 @@
     flex-basis: 33.33%;
 }
 
-.header .navigation ul li.first a{
-    color: #0065FC;
-    font-weight: bold;
-    border-top: 3px solid #0065FC;
-    display: block;
-    padding: 25px 5px;
-}
-
-.header .navigation ul li.second{
-    color: black;
-    font-weight: bold;
-}
-
-.header .navigation ul li.sinscrire a{
-    color: #0065FC;
-}
-
 .header .navigation ul li a{
     display: block;
     padding: 25px 5px;
     transition: border-top;
-    transition: border-top;
-    display: block;
     height:  var(--height-top-menu);
     line-height: var(--line-height-top-menu);
 }
 
-.header .navigation .sinscrire{
+.header .navigation ul li.first a{
+    color: #0065FC;
+    font-weight: bold;
+    border-top: 3px solid #0065FC;
+    padding: 25px 5px;
+}
+
+.header .navigation ul li.second a{
+    color: black;
+    font-weight: bold;
+}
+
+.header .navigation .sinscrire a{
     color: var(--blue-link-color);
     font-weight: bold;
     flex: 1 0 25%;
     height:  var(--height-top-menu);
     line-height: var(--line-height-top-menu);
-}
-
-a{
-    text-decoration: none;
+    color: #0065FC;
 }
 
 @media (max-width: 600px) {
-    .header #logo {
-        flex: 1 0 100%;
-    }
-
-    .header .navigation{
-        margin-top: 45px;
-        flex: 1 0 100%;
-    }
-
     .header{
-        margin-top: 0px;
-        align-items: flex-start;
-        margin-top: 13px;
         padding: 0px 10px;
         display:initial;
     }
@@ -99,20 +70,25 @@ a{
         
     .header #logo{
         flex: 1 0 50%;
-        margin-bottom: 10px;
+        margin-top: 0px;
     }
-        
+
+    .header .navigation{
+        margin-top: 45px;
+    }
+
     .header .navigation ul{
         position: absolute;
         top: 0px;
         left: 0px;
         right: 0PX;
         margin-top: 72px;
-        padding: 0px;
     }
 
-    .header .navigation ul li.first, header .navigation ul li.second{
-        flex-basis: 50%;
+    .header .navigation ul li a{
+        height: initial;
+        line-height: initial;
+        padding-bottom: 6px;
     }
 
     .header .navigation ul li.first a{
@@ -121,29 +97,21 @@ a{
         border-top: 0px;
     }
 
+    .header .navigation ul li.first, header .navigation ul li.second{
+        flex-basis: 50%;
+    }
+
     .header .navigation ul li.second a{
         margin-right: 0px;
         border-bottom: 3px solid #fff;
         padding: 10px;
     }
-        
-    .header .navigation ul li.first a, .header .navigation ul li.second a{
-        border-top: 0px;
-    }
 
     .header .navigation ul li a:hover{
         border-bottom: 3px solid #0065FC;
     }
-        
-    .header .navigation ul li a{
-        height: initial;
-        line-height: initial;
-        padding-bottom: 6px;
-    }
-        
-    .header .navigation .sinscrire {
-        height: initial;
-        line-height: initial;
+         
+    .header .navigation ul li.sinscrire {
         position: absolute;
         right: 16px;
         top: -62px;
@@ -152,4 +120,7 @@ a{
 
 /* responsive tablette */
 @media (min-width: 768px) and (max-width: 1100px) {
+    .header #logo{
+        margin-left: 10px;
+    }
 }
