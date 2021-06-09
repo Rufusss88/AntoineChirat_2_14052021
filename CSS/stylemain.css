@@ -582,7 +582,10 @@ body{
     .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain{
         flex-direction: column;
     }
-        
+    .accomodation .marseilleaccomodation .accomodationmain h1 {
+        margin-left: 0px;
+    }        
+
     .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .title-one{
         margin-top: 22px;
     }
@@ -637,6 +640,11 @@ body{
     .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels .accomodation #iconestonk{
         margin-right: 0;
     }
+
+    .accomodation .marseilleaccomodation .accomodationmain .showmore{
+        margin-left: 0px;
+    }
+
     /* style popular part */
     .accomodation .popular{
         border-radius:0;
@@ -744,6 +752,7 @@ body{
         grid-row: 2;
         margin-bottom: 10px;
         margin-right: 1rem;
+        width: 160px;
     }
 
     #filter2{
@@ -789,14 +798,18 @@ body{
 
     .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain h1{
         text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain p{
         margin-bottom: 0rem;
+        margin-left: 0px;
     }
     .accomodation .marseilleaccomodation .hebergementamarseille .accomodationmain .marseillehotels {
         max-width: 323px;
         flex: 1 0 34.33%;
+        margin-bottom: 15px;
     }
     /* style popular part */
     .accomodation .popular{
