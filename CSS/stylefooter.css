@@ -1,4 +1,8 @@
 /* style footer */
+footer{
+    background-color: #F2F2F2;
+}
+
 .footer{
     background-color: #F2F2F2;
     margin-top: 3rem;
@@ -20,6 +24,13 @@
 
 .footer .footersub ul li a{
     font-weight: 600;
+    font-size: 0.90rem;
+}
+
+.footerlink {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    color: black;
 }
 
 /* responsive telephone */
@@ -37,6 +48,7 @@
 /* responsive tablette */
 @media (min-width: 768px) and (max-width: 1100px) {
     .footer .footersub{
-        margin-left: 20px;
+        margin-top: 1rem;
+        padding-left: 20px;
     }
 }
