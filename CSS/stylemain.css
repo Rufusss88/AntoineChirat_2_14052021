@@ -339,9 +339,17 @@ body{
     color: black;
 }
 
-.activites .activitydescription2, .activitydescription6{
+.activites .activitydescription6{
     display: flex;
     margin-top: 240px;
+    margin-left: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.activites .activitydescription2{
+    display: flex;
+    margin-top: 268px;
     margin-left: 1rem;
     font-weight: bold;
     color: black;
@@ -689,6 +697,7 @@ body{
     
     .activities .activites .photoactivity2{
         width: -webkit-fill-available;
+        height: 150px;
     }
 
     .activities .activites .photoactivity6{
@@ -700,6 +709,10 @@ body{
         margin-top: 1rem;
         padding-top: 1rem;
         font-size: large;
+    }
+
+    .activities .activites .activitydescription2{
+        margin-top: 184px;
     }
 }
 
