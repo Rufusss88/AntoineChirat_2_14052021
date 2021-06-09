@@ -698,19 +698,39 @@ body{
         margin-bottom: 15px;
     }
 
-    .activities .activites .photoactivity1, .photoactivity2, .photoactivity3, .photoactivity4, .photoactivity5, .photoactivity6{
+
+    .activities .activites .photoactivity1{
+        width: 337px;
         height: 150px;
-        width: max-content;
     }
-    
+
     .activities .activites .photoactivity2{
         width: -webkit-fill-available;
+        height: 150px;
+        width: 337px;
+        height: 150px;
+    }
+
+    .activities .activites .photoactivity3{
+        min-width: 337px;
+        height: 150px;
+    }
+
+    .activities .activites .photoactivity4{
+        width: 337px;
+        height: 150px;
+    }
+
+    .activities .activites .photoactivity5{
+        width: 337px;
         height: 150px;
     }
 
     .activities .activites .photoactivity6{
-        min-width: 540px;
+        width: 337px;
+        height: 158px;
     }
+    
     
     .activities .activites .activitydescription1, .activitydescription2, .activitydescription3, .activitydescription4, .activitydescription5, .activitydescription6 {
         align-items: flex-end;
@@ -838,7 +858,7 @@ body{
     }
 
     .activities .activites .activity1, .activity2, .activity3, .activity4, .activity5, .activity6{
-        height: 100%;
+        height: 263.55px;
         width: 90%;
         margin-bottom: 1.1rem;
     }
@@ -846,18 +866,63 @@ body{
     .activities .activites .photoactivity1, .photoactivity2, .photoactivity3, .photoactivity4, .photoactivity5, .photoactivity6{
         height: 80%;
     }
-
-    .activities .activites .activitydescription1, .activitydescription3, .activitydescription4, .activitydescription5{
-        margin-top: 35%;
+    .activities .activites .activitydescription1 p{
+        margin-top: -258px;
         font-size: larger;
-    }  
-
-    .activities .activites .activitydescription2, .activitydescription6 {
-        margin-top: 30%;
+    } 
+    
+    .activities .activites .activitydescription2 p{
+        margin-top: -28px;
         font-size: larger;
     } 
 
-    .activities .activites .photoactivity1, .photoactivity4 {
-        width: 100%;
+    .activities .activites .activitydescription3 p{
+        margin-top:58px;
+        font-size: larger;
+    } 
+
+    .activities .activites .activitydescription4 p{
+        margin-top: -258px;
+        font-size: larger;
+    } 
+
+    .activities .activites .activitydescription5 p{
+        margin-top: 60px;
+        font-size: larger;
+    } 
+
+    .activities .activites  .activitydescription6 p{
+        margin-top: -15px;
+        font-size: larger;
+    } 
+
+    .activities .activites .photoactivity1{
+        height: 210px;
+        width: 699px;
+    }
+
+    .activities .activites .photoactivity2{
+        height: 210px;
+        width: 699px;
+    }
+
+    .activities .activites .photoactivity3{
+        height: 210px;
+        width: 699px;
+    }
+
+    .activities .activites .photoactivity4{
+        height: 210px;
+        width: 699px;
+    }
+
+    .activities .activites .photoactivity5{
+        height: 210px;
+        width: 699px;
+    }
+
+    .activities .activites .photoactivity6{
+        height: 210px;
+        width: 699px;
     }
 }
