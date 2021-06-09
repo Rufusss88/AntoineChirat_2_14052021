@@ -341,7 +341,7 @@ body{
 
 .activites .activitydescription6{
     display: flex;
-    margin-top: 240px;
+    margin-top: 258px;
     margin-left: 1rem;
     font-weight: bold;
     color: black;
@@ -713,6 +713,10 @@ body{
 
     .activities .activites .activitydescription2{
         margin-top: 184px;
+    }
+
+    .activities .activites .activitydescription6{
+        margin-top: 0px;
     }
 }
 
