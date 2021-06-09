@@ -39,19 +39,20 @@ a{
 
 .header .navigation ul li.first a{
     color: #0065FC;
-    font-weight: bold;
+    font-weight: 600;
     border-top: 3px solid #0065FC;
     padding: 25px 5px;
 }
 
 .header .navigation ul li.second a{
     color: black;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .header .navigation .sinscrire a{
     color: var(--blue-link-color);
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: medium;
     flex: 1 0 25%;
     height:  var(--height-top-menu);
     line-height: var(--line-height-top-menu);
