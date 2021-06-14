@@ -469,6 +469,10 @@ body{
         overflow-x: hidden;
     }
 
+    h1{
+        font-size: 1.7em;
+    }
+
     .research{
         margin-left: 15px;
     }
@@ -498,8 +502,8 @@ body{
           
     .research .researchpart .researchbox .inputsearch .researchicon{
         display: flex;
-        margin-top: 16.16px;
-        margin-left: 16px;
+        margin-top: 20.16px;
+        margin-left: 19px;
     }
 
     /* style filters part */
@@ -554,8 +558,8 @@ body{
         margin-left: 10px;
     }
 
-    .research .searchfilter .searchfiltertextresult{
-        font-size: medium;
+    .research .searchfiltertextresult{
+        font-size: 1.1em;
     }
     /* style accomodation marseille part */
     .accomodation{

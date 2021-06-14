@@ -110,14 +110,14 @@ a{
 
     .header .navigation ul li.second a{
         margin-right: 0px;
-        border-bottom: 3px solid #fff;
-        padding: 10px;
+        border-bottom: 3px solid #F0F0F0;
+        padding: 8.70px;
     }
 
     .header .navigation ul li.second a:hover{
         border-bottom: 3px solid #0065FC;
         border-top: 0px solid transparent;
-
+        padding: 10px;
     }
          
     .header .navigation ul li.sinscrire {
