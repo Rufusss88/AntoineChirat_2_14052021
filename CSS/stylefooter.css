@@ -49,6 +49,5 @@ footer{
 @media (min-width: 768px) and (max-width: 1100px) {
     .footer .footersub{
         margin-top: 1rem;
-        padding-left: 20px;
     }
 }
