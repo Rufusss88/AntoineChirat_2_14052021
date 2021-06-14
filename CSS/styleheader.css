@@ -47,6 +47,12 @@ a{
 .header .navigation ul li.second a{
     color: black;
     font-weight: 600;
+    border-top: 3px solid transparent;
+    transition-duration: 0.1s;
+}
+
+.header .navigation ul li.second a:hover{
+    border-top: 3px solid #0065FC;
 }
 
 .header .navigation .sinscrire a{
@@ -108,8 +114,10 @@ a{
         padding: 10px;
     }
 
-    .header .navigation ul li a:hover{
+    .header .navigation ul li.second a:hover{
         border-bottom: 3px solid #0065FC;
+        border-top: 0px solid transparent;
+
     }
          
     .header .navigation ul li.sinscrire {
