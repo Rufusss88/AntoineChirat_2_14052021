@@ -181,6 +181,7 @@ body{
 }
     
 .accomodation .marseilleaccomodation .accomodationmain .marseillehotels{
+    min-width: 260px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
